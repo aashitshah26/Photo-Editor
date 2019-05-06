@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="3"
+   android:orientation="vertical"
+    >
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:text="My Creation"
+    android:background="@drawable/btnback"
+    android:layout_margin="4dp"
+    android:onClick="creation"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Camera"
+        android:background="@drawable/btnback"
+        android:padding="1dp"
+        android:layout_margin="4dp"
+        android:onClick="camera"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Gallery"
+        android:background="@drawable/btnback"
+        android:padding="1dp"
+        android:layout_margin="4dp"
+        android:onClick="gallery"
+        />
+
+
+</LinearLayout>
